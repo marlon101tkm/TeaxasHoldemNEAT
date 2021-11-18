@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+    <Config>
+      <ExperimentName>TexasHoldemExperimentG100T5</ExperimentName>
+      <PopulationSize>30</PopulationSize>
+      <SpecieCount>3</SpecieCount>
+      <Activation>
+        <Scheme>Acyclic</Scheme>
+      </Activation>
+      <ComplexityRegulationStrategy>Absolute</ComplexityRegulationStrategy>
+      <ComplexityThreshold>200</ComplexityThreshold>
+      <Description>Learn How to Play Poker</Description>
+    </Config>

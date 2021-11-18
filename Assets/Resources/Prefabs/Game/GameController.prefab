@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &126826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 429418}
+  - component: {fileID: 11427326}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &429418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11427326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a65cf149e635f488e5e0a60622e4cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardPrefab: {fileID: 124868, guid: 95a884ff53bbbd7428a69b87534ad953, type: 3}
+  OpponentCardPrefab: {fileID: 124868, guid: e374cd8db30481242bea9d5b7249d95c, type: 3}
+  Board: {fileID: 0}
+  PotsParent: {fileID: 0}
+  PlayersParent: {fileID: 0}
+  ChipPrefab: {fileID: 177654, guid: e494c2310bf77fe4ba9a03ab78258c56, type: 3}
+  ButtonPrefab: {fileID: 177654, guid: b6d9c955238f08d4ab79cabe2fee5c5d, type: 3}
+  DeckPrefab: {fileID: 177654, guid: eb7f37e2b8ef2e34cab6e6a8c4bbce4c, type: 3}
+  FoldButton: {fileID: 0}
+  CheckButton: {fileID: 0}
+  CallButton: {fileID: 0}
+  BetButton: {fileID: 0}
+  RaiseButton: {fileID: 0}
+  BetInputField: {fileID: 0}
+  BetSlider: {fileID: 0}
+  HandTypeHintText: {fileID: 0}
